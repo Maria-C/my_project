@@ -1,0 +1,185 @@
+.main{
+
+	width: 100%;
+	height: 100%;
+
+	display: grid;
+	row-gap: 0px;
+	grid-template-columns: auto;
+}
+
+.Rectangle_1{
+
+/*position: absolute;
+width: 100%;
+height: 100vh;
+left: 0px;
+top: 0px;*/
+background: #F9F9F9;
+grid-row-start: 1;
+
+
+
+}
+
+
+.navbar{
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	
+	position: relative;
+	place-items: start;
+	width: 80%;
+	
+	
+	
+	padding: 10px 14px;
+
+}
+
+.navbutton{
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+padding: 10px 14px;
+/* identical to box height */
+
+
+color: #333333;
+
+}
+
+
+.h1{
+position: absolute;
+width: 437px;
+height: 272px;
+left: 390px;
+top: 203px;
+
+font-family: 'Libre Baskerville';
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+line-height: 150%;
+/* or 68px */
+
+
+color: #333333;
+
+}
+
+.p1{
+	position: absolute;
+width: 459px;
+height: 78px;
+left: 390px;
+top: 501px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+
+
+color: #333333;
+
+}
+
+
+.bookbutton{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 14px;
+gap: 10px;
+
+position: absolute;
+/*width: 215px; */
+height: 40px;
+left: 390px;
+top: 605px;
+
+background: #DD71C6;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+	
+
+.rectangle_10{
+position: absolute;
+width: 590px;
+height: 760px;
+left: 1330px;
+top: 0px;
+
+background: #FFD900;
+border-radius: 50px 0px 0px 0px;
+}
+
+
+
+
+
+
+
+.rectangle_14{
+
+width: 100%;
+
+
+position: absolute;
+
+height: 570px;
+left: 0px;
+top: 1000px;
+
+background: #DD71C6;
+
+grid-row-start: 2;
+}
+
+
+
+
+.rectangle_celeste{
+	
+	width: 100%
+	
+	height: 600px;
+	top:2000px;
+	background: #73C3F4;
+	grid-row-start: 3;
+
+}
+
+
+h2{
+
+	font-family: 'Libre Baskerville';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 160%;
+/* or 51px */
+
+
+color: #FFFFFF;
+
+}
